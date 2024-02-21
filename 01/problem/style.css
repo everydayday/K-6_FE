@@ -1,0 +1,42 @@
+*{
+    border:1px solid red;    
+    margin:0px;
+    padding: 0px; 
+    box-sizing: content-box; 
+    
+}
+
+body{
+    background-color:lightblue;
+    border:10px solid green;
+    width: 60%;
+    margin-left:20%;    
+}
+
+.btn{
+    display: flex;
+    justify-content: right;   
+}
+
+.btn>button{
+    background-color: rgb(21, 70, 207);
+}
+
+.intro{
+    font-size:0.8em;
+}
+
+.main{
+    border:10px solid green;    
+}
+
+
+.main img{
+    float: left;
+    width:20%;
+}
+
+.main p{
+    
+    font-size: 10px;
+}

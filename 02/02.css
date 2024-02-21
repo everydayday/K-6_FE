@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+article{
+    padding: 20px;
+}
+
+article > p {
+    margin:10px;
+}
+
+nav > ul{
+    display: flex;
+    flex-wrap: wrap; 
+    /* 자동 줄바꿈 기능
+     */
+    margin: 20px;
+    padding : 10px;
+    list-style: none;
+    justify-content: right;
+}
+
+nav a{
+    /* 밑줄 사라짐 */
+    text-decoration: none;
+    color : white;
+}
+
+nav a:hover, nav li:hover{
+    background-color: brown;
+}
+
+
+
+nav li{
+    margin:5px;
+    padding:10px;    
+    background: linear-gradient(#e66465,#9198e5 );
+    color: white;
+    border-radius: 5px;
+    
+}
+
+/* 하위 영역도 다 적용? */
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 60%;
+    /* margin-left:20%; */
+    
+    background:beige;
+    
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+section{
+    background-color: white;
+    margin: 10px;
+    padding:10px;
+}
+
+
+header > h1{
+    text-align: center;
+}
+
+section div{
+    display : flex;
+    justify-content: left;
+    margin-top : 20px;
+}
+
+section p{
+    margin-left: 20px;
+}
+
+footer > ul{
+    list-style: none;
+
+}
+
+footer{
+    background-color: black;
+    color:white;
+    
+}
+
+/* 잘 안씀 */
+@media screen and (max-width: 768px) {
+    main {
+      width:100%;
+      margin-left: 0px;
+      background-color: darkturquoise;
+    }
+
+    header > h1{
+        font-size:medium;
+        color:white;
+    }
+  }
