@@ -1,0 +1,26 @@
+div{
+    width:100px;
+    height: 100px;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    border:1px solid black;
+    background-color: #ccc;
+}
+
+.redbox{
+    background-color: red;
+    float:left;
+}
+
+.greenbox{
+    background-color: green;
+    float:left;
+}
+
+.bluebox{
+    background-color: blue;
+    
+}
