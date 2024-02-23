@@ -6,10 +6,15 @@ button{
     border:0px;
     margin:10px;
     border-radius: 5px;
+    border: 5px dashed thick;
 
 }
 
-button:hover{
+
+
+
+
+button:hover, #btArea2 button:hover{
     background-color: brown;
     color: white;
     cursor: pointer;
@@ -18,4 +23,16 @@ button:hover{
 h2{
     font-size : medium;
     color:blue;
+}
+
+.btGroupd{
+    background-color: bisque;
+}
+
+/* #btArea2 button{
+    background-color: rgb(186, 214, 145);
+} */
+
+#bt3{
+    background-color: purple;
 }

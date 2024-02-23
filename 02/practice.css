@@ -24,3 +24,11 @@ div{
     background-color: blue;
     
 }
+
+.section{
+    background-color: aqua;
+}
+
+.section > button{
+    background-color: blue;
+}

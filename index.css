@@ -71,8 +71,22 @@ section > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted gray;
+    border: 3px dotted gray;
     padding: 20px;
     margin: 10px;
 
+
+}
+
+header > div > a{
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+    color:gray;
+    background-color: rgb(247, 222, 226);
+    border-radius: 5px;
+
+    width: 60px;
+    justify-content: center;
+    align-items: center;
 }
