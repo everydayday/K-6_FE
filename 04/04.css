@@ -1,0 +1,39 @@
+button{
+    
+    height: 40px;
+    background-color: rgb(7, 235, 159);
+    color: white;
+    border:0px;
+    margin:10px;
+    border-radius: 5px;
+    border: 5px dashed thick;
+
+}
+
+
+
+
+
+button:hover, #btArea2 button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+h2{
+    font-size : medium;
+    color:blue;
+}
+
+
+section img{
+    max-width: 30%;
+    max-height: auto;
+    
+    
+}
+
+section div{
+    display: flex;
+    justify-content:center ;
+}

@@ -69,7 +69,8 @@ section > h1{
 section > div {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
     align-items: center;
     border: 3px dotted gray;
     padding: 20px;
