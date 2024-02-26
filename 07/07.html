@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 자바스크립트 위치1 -->
+    <!-- <script>
+        alert("안녕하세요");
+    </script> -->
+    <title>K-디지털6기 - 단위환산</title>
+    <!-- 자바스크립트 외부 파일 -->
+    <script src="07.js"></script>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../04/04.css">
+    <link rel="stylesheet" href="07.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <a href="../index.html">홈</a>
+            </div>
+            <h1>단위 환산
+            </h1>            
+        </header>
+        
+        <form name = "myform"">
+            <section>
+                
+                    <div>
+                        <div class="row">
+                            <!-- select는 블록 요소 아니라서 div로 크기 잡아줘야한다 -->
+                            <div>   
+                                <select name="sel1" id="sel1">
+                                    <option value="℃" selected>섭씨온도(℃)</option>
+                                    <option value="Ｆ">화씨온도(Ｆ)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select name="sel2" id ="sel2">
+                                    <option value="℃">섭씨온도(℃)</option>
+                                    <option value="Ｆ" selected >화씨온도(Ｆ)</option>
+                                </select>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            
+                            
+                            <div>
+                                <input type="number" id="txt1">
+                                <label for="txt1">℃</label>
+                                
+                                <input type="number" id="txt2" readonly>
+                                <label for="txt1">Ｆ</label>
+                                
+                                
+                            </div> 
+                            
+
+                        </div>
+                        
+
+                    </div>
+                                 
+            
+            
+            </section>
+        </form> 
+
+    </main>
+
+    
+</body>
+</html>
+
+
+
+
+

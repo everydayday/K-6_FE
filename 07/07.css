@@ -1,0 +1,48 @@
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+    
+}
+
+section > div{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.row > div{
+    display: flex;
+    
+    
+    align-items: center;
+    width: 90%;
+    border : 1px solid rosybrown;
+}
+
+select{
+    display: inline-flex;   /*inline-flex하면 요소만큼 크기 차지 flex는 전체 차지   */
+    width: 90%;
+    height: 20px;
+    background-color: aliceblue;
+}
+
+input[type=number]{
+    display: inline-flex;
+    width:70%;
+    height: 40px;
+}
+
+label{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#txt2{
+    background-color: beige;
+}

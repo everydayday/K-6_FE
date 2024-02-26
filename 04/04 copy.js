@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded",()=>{  // 화살표 함수, 콜백 함수
     // 버튼을 가져오기    
     const bt1 = document.querySelector("#btn");
 

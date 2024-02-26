@@ -10,8 +10,8 @@ main{
 }
 
 header{
-    background-color: rgb(212, 231, 173);
-    color : rgb(235, 191, 109);
+    background-color: silver;
+    color : ghostwhite;
     display : flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@ article{
 
 article ul{
     width: 80%;
-    background-color: beige;
+    background-color: rgb(255, 255, 3);
     margin-top : 20px;
     list-style: none;
     
@@ -72,7 +72,7 @@ section > div {
     justify-content: space-between;
     
     align-items: center;
-    border: 3px dotted gray;
+    border: 3px dotted rgb(3, 3, 3);
     padding: 20px;
     margin: 10px;
 
@@ -84,7 +84,7 @@ header > div > a{
     display: inline-flex;
     padding: 10px;
     color:gray;
-    background-color: rgb(247, 222, 226);
+    background-color: rgb(187, 250, 250);
     border-radius: 5px;
 
     width: 60px;

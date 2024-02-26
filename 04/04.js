@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     bt1.addEventListener("click",()=>{
         
-        const num1 = Math.floor(Math.random() * 6 )+1;           
+        const num1 = Math.floor(Math.random() * 6 )+1;           // Math.floor 소수점 버림
         const num2 = Math.floor(Math.random() * 6 )+1;           
         const num3 = Math.floor(Math.random() * 6 )+1;   
            
