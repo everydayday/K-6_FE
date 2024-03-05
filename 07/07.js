@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",()=>{  // dom(html)이 만들어졌
     console.log(txt1.value);
     if (sel1.value == "℃"){
       // 섭씨온도를 화씨온도로
-      txt2.value = parseFloat(txt1.value) * (9/5)) + 32;
+      txt2.value = parseFloat(txt1.value) * (9/5) + 32;
     }
     else{
       // 화씨온도를 섭씨온도로
