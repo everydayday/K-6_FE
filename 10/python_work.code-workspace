@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../python_work"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Js,html,css"
+	}
+}

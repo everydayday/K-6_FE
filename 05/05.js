@@ -1,7 +1,6 @@
 const handleClick = () =>{
     
     const bts = document.querySelectorAll("section > div > img");
-    console.log("here");
     const btsNum = [1, 1, 1];
 
     //for of  쌍으로 받아들임 idx 사용 가능 : 추천

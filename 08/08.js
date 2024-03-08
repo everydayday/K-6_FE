@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
   // 버튼의 클릭이벤트 달기
   bt.addEventListener("click",()=>{
-    if(!flag){  
+    if(!flag){   
       n = Math.floor(Math.random()*100+1);
       console.log("n=",n);
       flag = true;

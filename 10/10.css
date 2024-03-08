@@ -1,0 +1,63 @@
+#sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+section span{
+    /* 크기 정할 수 있어서 inline-flex */
+    display: inline-flex;    
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 30px;
+    /* 동그랗게 */
+    border-radius: 50%;
+    font-weight: 100px;
+    border : 1px thin black;
+    color:black;
+    
+    
+}
+
+
+
+.sp0{
+    background-color: #00BFFF;
+}
+
+.sp1{
+    background-color: #f9d0d0;
+}
+
+.sp2{
+    background-color: #a3f5a3;
+}
+
+.sp3{
+    background-color: #dedede;
+}
+
+.sp4{
+    background-color: #F5F5DC;
+}
+
+
+
+#numbers{
+    display: flex;
+    flex-direction: row;
+
+    /* 사이 공간 주기 */
+    /* margin: 20px 10px; */
+    
+}

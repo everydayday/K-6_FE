@@ -79,7 +79,7 @@ section > h1{
 section > div {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
     align-items: center;
     border: 3px dotted rgb(3, 3, 3);
@@ -100,4 +100,49 @@ header > div > a{
     width: 60px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* 04 분해 했던 부분 */
+button{
+    
+    height: 40px;
+    background-color: rgb(7, 235, 159);
+    color: white;
+    border:0px;
+    margin:10px;
+    border-radius: 5px;
+    border: 5px dashed thick;
+    /* border-radius: */
+
+}
+
+
+
+
+
+button:hover, #btArea2 button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+h2{
+    font-size : medium;
+    color:blue;
+}
+
+
+section img{
+    max-width: 30%;
+    max-height: auto;
+    
+    
+}
+
+section div{
+    display: flex;
+    justify-content:space-between ;
+    background-color: azure;
 }
